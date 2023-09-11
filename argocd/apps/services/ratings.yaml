@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   source:
-    repoURL: git@github.com:waleedmagdy/devops_project.git
+    repoURL: https://github.com/Abdallah-aqassem/devops_project.git
     path: manifests/kubernetes/ratings
   destination:
     server: https://kubernetes.default.svc
